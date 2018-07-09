@@ -1,0 +1,80 @@
+body{
+    background-color: @theme-background
+}
+
+p{
+    color: @light-color-text
+}
+
+#sidebar{
+    background: @theme;
+    color: @dark-color-text;
+}
+
+
+#sidebar ul li.active>a, a[aria-expanded="true"],ul ul a {
+    background: @dark-color-base-1;
+    color: @dark-color-text;
+}
+
+#sidebar ul li a:hover {
+    color:@light-color-text;
+    background: @light-color-base-4;
+}
+
+#sidebar ul.components {
+    border-bottom: 1px solid @dark-color-base-5;
+}
+#sidebar ul p {
+    color: #fff;
+}
+
+#sidebar .sidebar-header {
+    background: @dark-color-base-5;
+    color: @dark-color-text !important;
+}
+
+#sidebar .sidebar-header>h3 {
+    color: @dark-color-text !important;
+}
+
+#dismiss:hover {
+    background: @light-color-base-1;
+    color: @light-color-text;
+}
+
+#dismiss {
+    background: @light-color-base-1;
+}
+
+// .navbar {
+//     background: @theme-light-base  !important;
+// }
+
+.navbar-btn:hover{
+    background-color: @theme-light-base !important;
+}
+
+.navbar-btn>i{
+    color: @dark-color-base-5;
+}
+
+h1{
+    color: darken(@light-color-base-1,40%) 
+}
+
+h2{
+    color: darken(@light-color-base-1,30%) 
+}
+
+h3{
+    color: darken(@light-color-base-1,20%) 
+}
+
+h4{
+    color:darken(lightgray,30%)
+}
+
+h5{
+    color: darken(lightgray,20%)
+}
