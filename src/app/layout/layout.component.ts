@@ -10,9 +10,24 @@ declare var jQuery: any;
 
 
 export class LayoutComponent implements OnInit {
-  
+
   constructor() {
-   
+    this._initEvents();
+  }
+
+  _initEvents() {
+    // jQuery.swipe({
+    //   swipeStatus: function (event, phase, direction, distance, duration, fingers) {
+    //     if (phase == "move" && direction == "right") {
+    //       this.onToggleClick();
+    //       return false;
+    //     }
+    //     if (phase == "move" && direction == "left") {
+    //       this.onOverLayClick();
+    //       return false;
+    //     }
+    //   }.bind(this)
+    // });
   }
 
   ngOnInit() {
