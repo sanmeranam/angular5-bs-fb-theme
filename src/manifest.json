@@ -1,8 +1,8 @@
 {
   "name": "OpenApp",
-  "short_name": "a sample application.",
-  "theme_color": "#2196f3",
-  "background_color": "rgba(33,150,243,0.96)",
+  "short_name": "Rocket App",
+  "theme_color": "#eff4ff",
+  "background_color": "#eff4ff",
   "display": "standalone",
   "start_url": "/",
   "orientation": "portrait",
